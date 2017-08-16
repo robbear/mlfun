@@ -10,8 +10,9 @@ Machine learning practice
 ### Python 2
 1. `mkvirtualenv my_python2_env`
 2. `pip install numpy`
-3. `pip install scikit-learnpip install scipy`
-4. `pip install pandas`
+3. `pip install scikit-learn`
+4. `pip install scipy`
+5. `pip install pandas`
 
 Test with:
 ```
