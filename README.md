@@ -4,7 +4,7 @@ Machine learning practice
 ## Setup instructions for Cloud 9, including virtualenv 
 Thanks to Amy Bearman (@abearman) for guidance
 
-**Note: Choose an HTML5 C9 instance. Do not use a Python instance.**
+**Note: Choose a *blank* C9 instance. Do not use a Python instance.**
 
 ### Prerequisites
 1. cd ~
