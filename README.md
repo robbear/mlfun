@@ -44,3 +44,13 @@ python
 >>> import sklearn
 >>> import pandas
 ```
+
+### TensorFlow (deactivate first, if necessary)
+1. Follow TensorFlow installation instructions for Ubuntu
+2. source tensorflow/bin/activate
+
+#### TensorBoard
+```
+tensorboard --logdir=output --host $IP --port $PORT
+```
+Then view through the Apache root URL
