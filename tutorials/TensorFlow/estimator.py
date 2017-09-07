@@ -39,7 +39,15 @@ eval_input_fn = tf.estimator.inputs.numpy_input_fn(
 
 # We can invoke 1000 training steps by invoking the  method and passing the
 # training data set.
+#####
+# Question: Why does this example introduce input_fn which is identical
+# to train_input_fn but for indefinite runs with shuffling? Couldn't
+# train_input_fn be used as the estimator.train parameter and not
+# introduce input_fn at all?
+# Answer from abearman@cs.stanford.edu: "It's really not a big deal"
+#####
 estimator.train(input_fn=input_fn, steps=1000)
+#estimator.train(input_fn=train_input_fn, steps=1000)
 
 # Here we evaluate how well our model did.
 train_metrics = estimator.evaluate(input_fn=train_input_fn)
