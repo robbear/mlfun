@@ -11,12 +11,12 @@ Thanks to Amy Bearman (@abearman) for guidance
 2. `sudo pip install virtualenv`
 
 ### Python 2 stuff:
-2. `virtualenv .p2`
-3. `source .p2/bin/activate`
-4. `sudo pip install numpy`
-5. `sudo pip install scipy` 
-6. `sudo pip install pandas`
-7. `sudo pip install scikit-learn`
+1. `virtualenv .p2`
+2. `source .p2/bin/activate`
+3. `sudo pip install numpy`
+4. `sudo pip install scipy` 
+5. `sudo pip install pandas`
+6. `sudo pip install scikit-learn`
 
 Then you can do:
 ```
@@ -45,19 +45,8 @@ python
 >>> import pandas
 ```
 
-### Install GDAL globally
-See https://gist.github.com/cspanring/5680334 for guidance
-1. `sudo apt-add-repository ppa:ubuntugis/ubuntugis-unstable`
-2. `sudo apt-get update`
-3. `sudo apt-get install libgdal-dev`
-4. `sudo pip install gdal --global-option=build_ext --global-option="-I/usr/include/gdal/"`
-5. `sudo apt-get install gdal-bin`
-6. `sudo apt-get install python-gdal`
-
-Test by running `gdalinfo --version`
-
 ### TensorFlow (deactivate first, if necessary)
-1. Follow TensorFlow installation instructions for Ubuntu
+1. Follow TensorFlow installation instructions for Ubuntu: https://www.tensorflow.org/install/install_linux#InstallingVirtualenv
 2. source tensorflow/bin/activate
 
 #### TensorBoard
