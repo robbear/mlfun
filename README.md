@@ -45,6 +45,17 @@ python
 >>> import pandas
 ```
 
+### Install GDAL globally
+See https://gist.github.com/cspanring/5680334 for guidance
+1. `sudo apt-add-repository ppa:ubuntugis/ubuntugis-unstable`
+2. `sudo apt-get update`
+3. `sudo apt-get install libgdal-dev`
+4. `sudo pip install gdal --global-option=build_ext --global-option="-I/usr/include/gdal/"`
+5. `sudo apt-get install gdal-bin`
+6. `sudo apt-get install python-gdal`
+
+Test by running `gdalinfo --version`
+
 ### TensorFlow (deactivate first, if necessary)
 1. Follow TensorFlow installation instructions for Ubuntu
 2. source tensorflow/bin/activate
