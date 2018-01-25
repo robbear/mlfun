@@ -35,6 +35,8 @@ python
 5. `sudo pip install scipy`
 6. `sudo pip install pandas`
 7. `sudo pip install scikit-learn`
+8. `sudo pip install matplotlib`
+9. `sudo apt-get install python3-tk`
 
 Then you can do:
 ```
